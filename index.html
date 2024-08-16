@@ -57,9 +57,17 @@
     <a class="footer-link" href="https://www.linkedin.com/in/bhanupriya-t-p-55645b20a/">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/jeon_1211">Twitter</a>
     <a class="footer-link" href="https://bhanu2024.github.io/cv/">Website</a>
-    <p class="copy-right">© 2022 Bhanupriya T P @ Iiit Dharwad.</p>
+    <p class="copy-right">© <span id="current-year"></span> Bhanupriya T P @ Iiit Dharwad.</p>
   </div>
 
+
+  <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        
+        // Set the year in the element with id="current-year"
+        document.getElementById('current-year').textContent = currentYear;
+    </script>
 
 </body>
 
